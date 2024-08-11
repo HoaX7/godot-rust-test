@@ -1,0 +1,11 @@
+[package]
+name = "project-2"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+godot = "0.1.3"
